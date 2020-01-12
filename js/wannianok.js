@@ -822,6 +822,13 @@ allstr[0] = Animals[(cld[d].lYear-4)%12];  //20190705fix  allstr[0] = Animals[(y
 allstr[1] = a1.indexOf(allstr[0].substr(0,1))+1; //20190705 index+1
 allstr[2] = getAstrov(mmmm,dddd);
 allstr[3]= getAstroi(mmmm,dddd)+1; //20190705 index+1  
+
+console.log("LEAN", cld[d].lDay)
+console.log("LEAN", tttt)
+console.log("LEAN", min)
+console.log("LEAN", allstr[2])
+console.log("LEAN", moonxzget(cld[d].lDay,tttt,min,allstr[2]))
+
 allstr[4]=moonxzget(cld[d].lDay,tttt,min,allstr[2]);
 allstr[5]=moonxzgeti(cld[d].lDay,tttt,min,allstr[2])+1; //20190705 index+1 
 allstr[6] = cld[d].sYear;
@@ -1057,3 +1064,7 @@ function TimeAdd(UTC,T)
 	}
 	//UTC = UTC.substr(1
 }  
+
+module.exports = {
+  moonxzget
+};

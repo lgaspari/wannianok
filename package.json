@@ -1,0 +1,23 @@
+{
+  "name": "wannianok",
+  "version": "1.0.0",
+  "description": "万年历ok 是一个JS+HTML的web组件。 公历定义或输入日期时间 转换 获取 中国农历日期时间、天干地支、生肖、太阳星座、月亮星座",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzpemu/wannianok.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hzpemu/wannianok/issues"
+  },
+  "homepage": "https://github.com/hzpemu/wannianok#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
