@@ -1,5 +1,5 @@
 ﻿		  
-var debug = 2; // -1: disable; 0: all; N: show level N debug msg.
+var debug = 0; // -1: disable; 0: all; N: show level N debug msg.
 
 //农历数据信息
 var lunarInfo = new Array(
